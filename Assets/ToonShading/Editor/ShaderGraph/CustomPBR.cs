@@ -246,7 +246,7 @@ public class CustomPBR : ICustomPBRSubShader
 
         subShader.AddShaderChunk(
             GetShaderPassFromTemplate(
-                "lightweightPBRForwardPass.template",
+                "ToonShaderTemplate.template",
                 masterNode,
                 masterNode.model == CustomPBRNode.Model.Metallic ? m_ForwardPassMetallic : m_ForwardPassSpecular,
                 mode,

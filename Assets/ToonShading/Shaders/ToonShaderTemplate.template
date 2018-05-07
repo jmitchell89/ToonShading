@@ -8,6 +8,12 @@ Pass
 	${ZTest}
 	${ZWrite}
 
+	// Enable grab pass
+	GrabPass
+	{
+		"_GrabTex"
+	}
+
 	HLSLPROGRAM
     // Required to compile gles 2.0 with standard srp library
     #pragma prefer_hlslcc gles
